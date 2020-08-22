@@ -4,7 +4,7 @@ import User from "../Components/User/user";
 import UserInfo from "../Components/UserInfo/userInfo";
 const Routes = (
   <Router>
-    <Route path={"/react-deploy"} component={User} exact />
+    <Route path={"/"} component={User} exact />
     <Route path={"/react-deploy/:id"} component={UserInfo} exact />
   </Router>
 );
