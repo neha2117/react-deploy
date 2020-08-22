@@ -66,7 +66,7 @@ class User extends React.Component {
       "," +
       userDetails.location.postcode;
     this.props.history.push({
-      pathname: `/react-deploy/${name}`,
+      pathname: `/${name}`,
       state: {
         userDetails: {
           name: name,
