@@ -27,7 +27,7 @@ class UserInfo extends React.Component {
 
   goBack = () => {
     this.props.history.push({
-      pathname: `/`
+      pathname: `/react-deploy/`
     });
   };
 
