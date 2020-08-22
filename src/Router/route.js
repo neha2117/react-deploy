@@ -5,7 +5,7 @@ import UserInfo from "../Components/UserInfo/userInfo";
 const Routes = (
   <Router>
     <Route path={"/react-deploy/"} component={User} exact />
-    <Route path={"/:id"} component={UserInfo} exact />
+    <Route path={"/react-deploy/:id"} component={UserInfo} exact />
   </Router>
 );
 export default Routes;
