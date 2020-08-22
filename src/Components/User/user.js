@@ -131,7 +131,7 @@ class User extends React.Component {
     return (
       <div>
         <div className="header">
-          <span className="header-name">FOOBAR</span>MEMBER LOG
+          <span className="header-name">YOUR</span>MEMBER LOG
         </div>
         <div className="member-search">
           <input
